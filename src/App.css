@@ -2,3 +2,10 @@ body {
   background-color: goldenrod;
   padding: 1em;
 }
+
+#beerList {
+  display: flex;
+  direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
